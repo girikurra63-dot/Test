@@ -1,2 +1,6 @@
 hello
 System.out.println("hi");
+
+RestAssured.baseURI ="";
+RestAssured.given().log().all().queryParam("key","qaclick123")
+
